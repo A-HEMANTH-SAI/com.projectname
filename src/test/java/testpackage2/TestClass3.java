@@ -7,12 +7,12 @@ import genericutilities.BaseClass;
 
 public class TestClass3 extends BaseClass{
 	
-	@Test 
+	@Test (groups="smoke")
 	public void test1() {
 		Reporter.log("test 1 of TestClass3",true);
 	}
 	
-	@Test 
+	@Test (groups="regression")
 	public void test2() {
 		Reporter.log("test 2 of TestClass3",true);
 	}

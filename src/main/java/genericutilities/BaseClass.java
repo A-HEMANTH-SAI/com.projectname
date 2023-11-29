@@ -18,7 +18,7 @@ public class BaseClass {
 	public FileInputStream fis;
 	public Properties p;
 	
-	@BeforeClass
+	@BeforeClass(alwaysRun=true)
 	public void openBrowser() throws IOException {
 		fis=new FileInputStream("./src/test/resources/commondata.property");
 		p=new Properties();
@@ -34,12 +34,12 @@ public class BaseClass {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		Reporter.log("Open browser*****BeforeClass",true); 
 	}
-	@AfterClass
+	@AfterClass(alwaysRun=true)
 	public void closeBrowser() {
 		driver.quit();
 		Reporter.log("Close Browser*****AfterClass",true);
 	}
-	@BeforeMethod
+	@BeforeMethod(alwaysRun=true)
 	public void login() throws InterruptedException {
 		driver.get(p.getProperty("url"));
 		driver.findElement(By.id("username")).sendKeys(p.getProperty("un"));
@@ -47,7 +47,7 @@ public class BaseClass {
 		driver.findElement(By.id("submit")).click();
 		Reporter.log("Enter URL Login to Application",true);
 	}
-	@AfterMethod
+	@AfterMethod(alwaysRun=true)
 	public void logout() {
 		driver.findElement(By.xpath("//a[.='Log out']")).click();
 		Reporter.log("Logout of Application",true);
