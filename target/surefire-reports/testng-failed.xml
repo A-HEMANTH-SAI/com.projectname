@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="testpackage2.TestClass4">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="test1"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="login"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- testpackage2.TestClass4 -->
+      <class name="testpackage2.TestClass3">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="test1"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="test2"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- testpackage2.TestClass3 -->
+      <class name="testpackage1.TestClass2">
+        <methods>
+          <include name="test1"/>
+          <include name="closeBrowser"/>
+          <include name="logout"/>
+          <include name="openBrowser"/>
+          <include name="login"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- testpackage1.TestClass2 -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

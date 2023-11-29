@@ -8,17 +8,17 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Reporter;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.BeforeTest;
 public class BaseClass {
 	public WebDriver driver;
 	public static WebDriver ssdriver;
 	public FileInputStream fis;
 	public Properties p;
 	
-	@BeforeTest
+	@BeforeClass
 	public void openBrowser() throws IOException {
 		fis=new FileInputStream("./src/test/resources/commondata.property");
 		p=new Properties();
@@ -32,12 +32,12 @@ public class BaseClass {
 		ssdriver=driver;
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		Reporter.log("Open browser*****BEFORE TEST",true); 
+		Reporter.log("Open browser*****BeforeClass",true); 
 	}
-	@AfterTest
+	@AfterClass
 	public void closeBrowser() {
 		driver.quit();
-		Reporter.log("Close Browser*****AFTER TEST",true);
+		Reporter.log("Close Browser*****AfterClass",true);
 	}
 	@BeforeMethod
 	public void login() throws InterruptedException {
