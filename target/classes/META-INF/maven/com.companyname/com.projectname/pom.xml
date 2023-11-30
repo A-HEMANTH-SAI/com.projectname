@@ -64,7 +64,7 @@
   
   <profiles>
 	  <profile>
-		  <id>abcd</id>
+		  <id>R</id>
 		  <build>
 			  <pluginManagement>
 				  <plugins>
@@ -74,10 +74,48 @@
         <version>3.2.2</version>
         <configuration>
           <suiteXmlFiles>
-            <suiteXmlFile>testng.xml</suiteXmlFile>
+            <suiteXmlFile>regressiongroup.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
       </plugin>
+				  </plugins>
+			  </pluginManagement>
+		  </build>
+	  </profile>
+	  <profile>
+		  <id>S</id>
+		  <build>
+			  <pluginManagement>
+				  <plugins>
+					   <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.2.2</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>smokegroup.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin> 
+				  </plugins>
+			  </pluginManagement>
+		  </build>
+	  </profile>
+	  <profile>
+		  <id>DPE</id>
+		  <build>
+			  <pluginManagement>
+				  <plugins>
+					  <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.2.2</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>DistributedParallelExe.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
+      </plugin> 
 				  </plugins>
 			  </pluginManagement>
 		  </build>
