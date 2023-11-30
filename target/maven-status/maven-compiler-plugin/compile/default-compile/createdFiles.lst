@@ -1,0 +1,10 @@
+genericutilities\BaseClass.class
+genericutilities\IPathConstants.class
+genericutilities\ExcelUtils.class
+genericutilities\PropertyFileUtils.class
+genericutilities\DataProviderClass.class
+genericutilities\JavaUtils.class
+genericutilities\ListenersImpl.class
+genericutilities\RetryAnalyzerImpl.class
+genericutilities\AnnotationTransformerImpl.class
+genericutilities\DBUtils.class

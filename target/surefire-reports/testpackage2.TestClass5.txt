@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: TestSuite
+Test set: testpackage2.TestClass5
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 45.67 s -- in TestSuite
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 12.47 s -- in testpackage2.TestClass5
