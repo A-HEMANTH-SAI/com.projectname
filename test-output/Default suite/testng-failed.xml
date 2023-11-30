@@ -5,11 +5,7 @@
     <classes>
       <class name="testpackage1.TestClass1">
         <methods>
-          <include name="test1"/>
-          <include name="closeBrowser"/>
-          <include name="logout"/>
-          <include name="openBrowser"/>
-          <include name="login"/>
+          <include name="testMethod1"/>
         </methods>
       </class> <!-- testpackage1.TestClass1 -->
     </classes>
