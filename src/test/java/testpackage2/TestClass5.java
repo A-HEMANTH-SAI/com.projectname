@@ -7,7 +7,7 @@ public class TestClass5 {
 
 	@Test
 	public void test1() {
-		Reporter.log(System.getProperty("NAME"));
+		Reporter.log(System.getProperty("NAME"),true);
 	}
 	
 	
