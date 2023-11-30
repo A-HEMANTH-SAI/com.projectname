@@ -20,7 +20,7 @@ public class TestClass5 {
 		else driver=new FirefoxDriver();
 		driver.manage().window().maximize();
 		Reporter.log(browser+" OPENED SUCCESSFULLY", true);
-		driver.get("URL");
+		driver.get(System.getProperty("URL"));
 		Reporter.log(driver.getTitle(),true);
 		driver.quit();
 		Reporter.log(browser+" CLOSED SUCCESSFULLY",true);
