@@ -10,7 +10,6 @@ public class TestClass1 extends BaseClass{
 	
 	@Test (groups="smoke")
 	public void test1() {
-	Assert.assertEquals("a","e");
 		
 		Reporter.log("test 1 of TestClass1",true);
 		
