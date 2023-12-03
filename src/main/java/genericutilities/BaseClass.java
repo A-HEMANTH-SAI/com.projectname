@@ -22,9 +22,9 @@ public class BaseClass {
 
 	@BeforeClass(alwaysRun=true)
 	public void openBrowser() throws IOException {
-		//fis=new FileInputStream("./src/test/resources/commondata.property");
-		//p=new Properties();
-		//p.load(fis);
+		fis=new FileInputStream("./src/test/resources/commondata.property");
+		p=new Properties();
+		p.load(fis);
 		String browser=System.getProperty("BROWSER");
 		if(browser.equalsIgnoreCase("chrome"))
 			driver=new ChromeDriver();
