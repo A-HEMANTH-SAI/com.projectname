@@ -34,7 +34,7 @@ public class BaseClass {
 		ssdriver=driver;
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		Reporter.log("Open browser*****BeforeClass",true); 
+		Reporter.log(browser +"Open browser*****BeforeClass",true); 
 	}
 	@AfterClass(alwaysRun=true)
 	public void closeBrowser() {
