@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Surefire test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Thu Nov 30 11:38:05 IST 2023</td>
+<td>Started on:</td><td>Sun Dec 03 23:42:32 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>11 seconds (11775 ms)</td>
+<tr><td>Total time:</td><td>11 seconds (11017 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,10 +76,29 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testpackage2.TestClass5.test1()'><b>test1</b><br>Test class: testpackage2.TestClass5</td>
+<td title='testpackage2.TestClass4.test1()'><b>test1</b><br>Test class: testpackage2.TestClass4<br/>
+<a href="#Output-1090695601" onClick='toggleBox("Output-1090695601", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1090695601" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1090695601">
+test 1 of TestClass4<br/>
+</div>
+</td>
 <td></td>
-<td>11</td>
-<td>testpackage2.TestClass5@13b13b5d</td></tr>
+<td>0</td>
+<td>testpackage2.TestClass4@41fecb8b</td></tr>
+<tr>
+<td title='testpackage2.TestClass4.test2()'><b>test2</b><br>Test class: testpackage2.TestClass4<br/>
+<a href="#Output-1011481270" onClick='toggleBox("Output-1011481270", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1011481270" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1011481270">
+test 2 of TestClass4<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>testpackage2.TestClass4@41fecb8b</td></tr>
 </table><p>
 </body>
 </html>
