@@ -25,7 +25,7 @@ public class BaseClass {
 		fis=new FileInputStream("./src/test/resources/commondata.property");
 		p=new Properties();
 		p.load(fis);
-		String browser=System.getProperty("BROWSER");
+		String browser=p.getProperty("browser");
 		if(browser.equalsIgnoreCase("chrome"))
 			driver=new ChromeDriver();
 		else if(browser.equalsIgnoreCase("edge"))
