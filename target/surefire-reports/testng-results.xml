@@ -1,6 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Open browser*****BeforeClass]]>
+    </line>
+    <line>
+      <![CDATA[Enter URL Login to Application]]>
+    </line>
+    <line>
+      <![CDATA[test 1 of TestClass1]]>
+    </line>
+    <line>
+      <![CDATA[Logout of Application]]>
+    </line>
+    <line>
+      <![CDATA[Enter URL Login to Application]]>
+    </line>
+    <line>
+      <![CDATA[test 2 of TestClass1]]>
+    </line>
+    <line>
+      <![CDATA[Logout of Application]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser*****AfterClass]]>
+    </line>
+    <line>
+      <![CDATA[Open browser*****BeforeClass]]>
+    </line>
+    <line>
+      <![CDATA[Enter URL Login to Application]]>
+    </line>
+    <line>
+      <![CDATA[test 1 of TestClass2]]>
+    </line>
+    <line>
+      <![CDATA[Logout of Application]]>
+    </line>
+    <line>
+      <![CDATA[Enter URL Login to Application]]>
+    </line>
+    <line>
+      <![CDATA[test 2 of TestClass2]]>
+    </line>
+    <line>
+      <![CDATA[Logout of Application]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser*****AfterClass]]>
+    </line>
+    <line>
+      <![CDATA[Open browser*****BeforeClass]]>
+    </line>
+    <line>
+      <![CDATA[Enter URL Login to Application]]>
+    </line>
+    <line>
+      <![CDATA[test 1 of TestClass3]]>
+    </line>
+    <line>
+      <![CDATA[Logout of Application]]>
+    </line>
+    <line>
+      <![CDATA[Enter URL Login to Application]]>
+    </line>
+    <line>
+      <![CDATA[test 2 of TestClass3]]>
+    </line>
+    <line>
+      <![CDATA[Logout of Application]]>
+    </line>
+    <line>
+      <![CDATA[Close Browser*****AfterClass]]>
+    </line>
     <line>
       <![CDATA[Open browser*****BeforeClass]]>
     </line>
@@ -26,67 +98,131 @@
       <![CDATA[Close Browser*****AfterClass]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-12-03T23:42:32 IST" name="Surefire suite" finished-at="2023-12-03T23:42:43 IST" duration-ms="11017">
+  <suite started-at="2023-12-30T21:59:27 IST" name="Suite" finished-at="2023-12-30T22:00:48 IST" duration-ms="80974">
     <groups>
       <group name="regression">
-        <method signature="TestClass4.test2()[pri:0, instance:testpackage2.TestClass4@41fecb8b]" name="test2" class="testpackage2.TestClass4"/>
+        <method signature="TestClass1.test2()[pri:0, instance:testpackage1.TestClass1@71a8adcf]" name="test2" class="testpackage1.TestClass1"/>
+        <method signature="TestClass2.test2()[pri:0, instance:testpackage1.TestClass2@54a7079e]" name="test2" class="testpackage1.TestClass2"/>
+        <method signature="TestClass3.test2()[pri:0, instance:testpackage2.TestClass3@26e356f0]" name="test2" class="testpackage2.TestClass3"/>
+        <method signature="TestClass4.test2()[pri:0, instance:testpackage2.TestClass4@47d9a273]" name="test2" class="testpackage2.TestClass4"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="TestClass4.test1()[pri:0, instance:testpackage2.TestClass4@41fecb8b]" name="test1" class="testpackage2.TestClass4"/>
+        <method signature="TestClass1.test1()[pri:0, instance:testpackage1.TestClass1@71a8adcf]" name="test1" class="testpackage1.TestClass1"/>
+        <method signature="TestClass2.test1()[pri:0, instance:testpackage1.TestClass2@54a7079e]" name="test1" class="testpackage1.TestClass2"/>
+        <method signature="TestClass3.test1()[pri:0, instance:testpackage2.TestClass3@26e356f0]" name="test1" class="testpackage2.TestClass3"/>
+        <method signature="TestClass4.test1()[pri:0, instance:testpackage2.TestClass4@47d9a273]" name="test1" class="testpackage2.TestClass4"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-12-03T23:42:32 IST" name="Surefire test" finished-at="2023-12-03T23:42:43 IST" duration-ms="11017">
-      <class name="testpackage2.TestClass4">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testpackage2.TestClass4@41fecb8b]" started-at="2023-12-03T23:42:32 IST" name="openBrowser" finished-at="2023-12-03T23:42:35 IST" duration-ms="2946" status="PASS">
+    <test started-at="2023-12-30T21:59:27 IST" name="Test" finished-at="2023-12-30T22:00:48 IST" duration-ms="80974">
+      <class name="testpackage2.TestClass3">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testpackage2.TestClass3@26e356f0]" started-at="2023-12-30T22:00:23 IST" name="openBrowser" finished-at="2023-12-30T22:00:24 IST" duration-ms="1268" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Open browser*****BeforeClass]]>
             </line>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method is-config="true" signature="login()[pri:0, instance:testpackage2.TestClass4@41fecb8b]" started-at="2023-12-03T23:42:35 IST" name="login" finished-at="2023-12-03T23:42:39 IST" duration-ms="3993" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:testpackage2.TestClass3@26e356f0]" started-at="2023-12-30T22:00:24 IST" name="login" finished-at="2023-12-30T22:00:33 IST" duration-ms="8650" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Enter URL Login to Application]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="test1()[pri:0, instance:testpackage2.TestClass4@41fecb8b]" started-at="2023-12-03T23:42:39 IST" name="test1" finished-at="2023-12-03T23:42:39 IST" duration-ms="7" status="PASS">
+        <test-method signature="test1()[pri:0, instance:testpackage2.TestClass3@26e356f0]" started-at="2023-12-30T22:00:33 IST" name="test1" finished-at="2023-12-30T22:00:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test 1 of TestClass3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testpackage2.TestClass3@26e356f0]" started-at="2023-12-30T22:00:33 IST" name="logout" finished-at="2023-12-30T22:00:34 IST" duration-ms="629" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout of Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testpackage2.TestClass3@26e356f0]" started-at="2023-12-30T22:00:34 IST" name="login" finished-at="2023-12-30T22:00:35 IST" duration-ms="1715" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter URL Login to Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="test2()[pri:0, instance:testpackage2.TestClass3@26e356f0]" started-at="2023-12-30T22:00:35 IST" name="test2" finished-at="2023-12-30T22:00:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test 2 of TestClass3]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testpackage2.TestClass3@26e356f0]" started-at="2023-12-30T22:00:35 IST" name="logout" finished-at="2023-12-30T22:00:36 IST" duration-ms="564" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout of Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testpackage2.TestClass3@26e356f0]" started-at="2023-12-30T22:00:36 IST" name="closeBrowser" finished-at="2023-12-30T22:00:36 IST" duration-ms="176" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser*****AfterClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testpackage2.TestClass3 -->
+      <class name="testpackage2.TestClass4">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testpackage2.TestClass4@47d9a273]" started-at="2023-12-30T22:00:36 IST" name="openBrowser" finished-at="2023-12-30T22:00:38 IST" duration-ms="1360" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Open browser*****BeforeClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testpackage2.TestClass4@47d9a273]" started-at="2023-12-30T22:00:38 IST" name="login" finished-at="2023-12-30T22:00:44 IST" duration-ms="6313" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter URL Login to Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="test1()[pri:0, instance:testpackage2.TestClass4@47d9a273]" started-at="2023-12-30T22:00:44 IST" name="test1" finished-at="2023-12-30T22:00:44 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[test 1 of TestClass4]]>
             </line>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:testpackage2.TestClass4@41fecb8b]" started-at="2023-12-03T23:42:39 IST" name="logout" finished-at="2023-12-03T23:42:40 IST" duration-ms="771" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:testpackage2.TestClass4@47d9a273]" started-at="2023-12-30T22:00:44 IST" name="logout" finished-at="2023-12-30T22:00:45 IST" duration-ms="851" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout of Application]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="login()[pri:0, instance:testpackage2.TestClass4@41fecb8b]" started-at="2023-12-03T23:42:40 IST" name="login" finished-at="2023-12-03T23:42:42 IST" duration-ms="2274" status="PASS">
+        <test-method is-config="true" signature="login()[pri:0, instance:testpackage2.TestClass4@47d9a273]" started-at="2023-12-30T22:00:45 IST" name="login" finished-at="2023-12-30T22:00:47 IST" duration-ms="2210" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Enter URL Login to Application]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="test2()[pri:0, instance:testpackage2.TestClass4@41fecb8b]" started-at="2023-12-03T23:42:42 IST" name="test2" finished-at="2023-12-03T23:42:42 IST" duration-ms="1" status="PASS">
+        <test-method signature="test2()[pri:0, instance:testpackage2.TestClass4@47d9a273]" started-at="2023-12-30T22:00:47 IST" name="test2" finished-at="2023-12-30T22:00:47 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[test 2 of TestClass4]]>
             </line>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="logout()[pri:0, instance:testpackage2.TestClass4@41fecb8b]" started-at="2023-12-03T23:42:42 IST" name="logout" finished-at="2023-12-03T23:42:43 IST" duration-ms="662" status="PASS">
+        <test-method is-config="true" signature="logout()[pri:0, instance:testpackage2.TestClass4@47d9a273]" started-at="2023-12-30T22:00:47 IST" name="logout" finished-at="2023-12-30T22:00:48 IST" duration-ms="809" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Logout of Application]]>
             </line>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testpackage2.TestClass4@41fecb8b]" started-at="2023-12-03T23:42:43 IST" name="closeBrowser" finished-at="2023-12-03T23:42:43 IST" duration-ms="260" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testpackage2.TestClass4@47d9a273]" started-at="2023-12-30T22:00:48 IST" name="closeBrowser" finished-at="2023-12-30T22:00:48 IST" duration-ms="359" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Close Browser*****AfterClass]]>
@@ -94,6 +230,122 @@
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- testpackage2.TestClass4 -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+      <class name="testpackage1.TestClass1">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testpackage1.TestClass1@71a8adcf]" started-at="2023-12-30T21:59:27 IST" name="openBrowser" finished-at="2023-12-30T21:59:29 IST" duration-ms="2026" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Open browser*****BeforeClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testpackage1.TestClass1@71a8adcf]" started-at="2023-12-30T21:59:29 IST" name="login" finished-at="2023-12-30T21:59:47 IST" duration-ms="17821" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter URL Login to Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="test1()[pri:0, instance:testpackage1.TestClass1@71a8adcf]" started-at="2023-12-30T21:59:47 IST" name="test1" finished-at="2023-12-30T21:59:47 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test 1 of TestClass1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testpackage1.TestClass1@71a8adcf]" started-at="2023-12-30T21:59:47 IST" name="logout" finished-at="2023-12-30T21:59:48 IST" duration-ms="694" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout of Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testpackage1.TestClass1@71a8adcf]" started-at="2023-12-30T21:59:48 IST" name="login" finished-at="2023-12-30T21:59:59 IST" duration-ms="11007" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter URL Login to Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="test2()[pri:0, instance:testpackage1.TestClass1@71a8adcf]" started-at="2023-12-30T21:59:59 IST" name="test2" finished-at="2023-12-30T21:59:59 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test 2 of TestClass1]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testpackage1.TestClass1@71a8adcf]" started-at="2023-12-30T21:59:59 IST" name="logout" finished-at="2023-12-30T22:00:03 IST" duration-ms="4236" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout of Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testpackage1.TestClass1@71a8adcf]" started-at="2023-12-30T22:00:03 IST" name="closeBrowser" finished-at="2023-12-30T22:00:03 IST" duration-ms="142" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser*****AfterClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testpackage1.TestClass1 -->
+      <class name="testpackage1.TestClass2">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:testpackage1.TestClass2@54a7079e]" started-at="2023-12-30T22:00:03 IST" name="openBrowser" finished-at="2023-12-30T22:00:04 IST" duration-ms="1222" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Open browser*****BeforeClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testpackage1.TestClass2@54a7079e]" started-at="2023-12-30T22:00:04 IST" name="login" finished-at="2023-12-30T22:00:16 IST" duration-ms="11368" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter URL Login to Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="test1()[pri:0, instance:testpackage1.TestClass2@54a7079e]" started-at="2023-12-30T22:00:16 IST" name="test1" finished-at="2023-12-30T22:00:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test 1 of TestClass2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testpackage1.TestClass2@54a7079e]" started-at="2023-12-30T22:00:16 IST" name="logout" finished-at="2023-12-30T22:00:17 IST" duration-ms="1283" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout of Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="login()[pri:0, instance:testpackage1.TestClass2@54a7079e]" started-at="2023-12-30T22:00:17 IST" name="login" finished-at="2023-12-30T22:00:20 IST" duration-ms="3441" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Enter URL Login to Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="test2()[pri:0, instance:testpackage1.TestClass2@54a7079e]" started-at="2023-12-30T22:00:20 IST" name="test2" finished-at="2023-12-30T22:00:20 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test 2 of TestClass2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:testpackage1.TestClass2@54a7079e]" started-at="2023-12-30T22:00:20 IST" name="logout" finished-at="2023-12-30T22:00:23 IST" duration-ms="2592" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout of Application]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:testpackage1.TestClass2@54a7079e]" started-at="2023-12-30T22:00:23 IST" name="closeBrowser" finished-at="2023-12-30T22:00:23 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Close Browser*****AfterClass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testpackage1.TestClass2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

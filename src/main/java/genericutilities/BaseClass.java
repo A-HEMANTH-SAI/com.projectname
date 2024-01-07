@@ -25,7 +25,7 @@ public class BaseClass {
 		fis=new FileInputStream("./src/test/resources/commondata.property");
 		p=new Properties();
 		p.load(fis);
-		String browser=System.getProperty("BROWSER");
+		String browser=p.getProperty("browser");
 		if(browser.equalsIgnoreCase("chrome"))
 			driver=new ChromeDriver();
 		else if(browser.equalsIgnoreCase("edge"))
@@ -34,7 +34,7 @@ public class BaseClass {
 		ssdriver=driver;
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		Reporter.log(browser +"Open browser*****BeforeClass",true); 
+		Reporter.log("Open browser*****BeforeClass",true); 
 	}
 	@AfterClass(alwaysRun=true)
 	public void closeBrowser() {

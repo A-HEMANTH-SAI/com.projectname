@@ -1,4 +1,5 @@
 testpackage1\TestClass1.class
+GridExec.class
 testpackage2\TestClass3.class
 BrokenLinksTest.class
 HardAssertTest.class
